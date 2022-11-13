@@ -1,4 +1,4 @@
-FROM node:7
+FROM node:18
 WORKDIR /webapp
 COPY package.json /webapp
 RUN npm install
